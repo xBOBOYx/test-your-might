@@ -1,16 +1,21 @@
 Description
 
+For this assignement we had to create a JavaScript quiz. I used the example questions in class description for the 
+JavaScript questions. What you will see happeneing in the code is a timer counting down, elements created through 
+JavaScript, event listeners, appending and local storage. 
 
+I had a little fun with this one. I originally wanted to do more with the Mortal Kombat theme, but just ran out of time due to traveling. I want to go back and add music, sounds and other character just for fun. 
 
+I got the cool animated sprite from CodePen:
+https://codepen.io/leglock/pen/qBOZGEa
 
+Mortal Kombat Font Family:
+https://fonts.cdnfonts.com/css/mortal-kombat
 
-## Your Task
+Here is my website link:
+https://xboboyx.github.io/test-your-might/index.html
 
-At some point in your journey to become a full-stack web developer, you’ll likely be asked to complete a coding assessment&mdash;perhaps as part of an interview process. A typical coding assessment includes both multiple-choice questions and interactive coding challenges. 
-
-To help familiarize you with these tests and allow you to use the skills covered in this unit, this week’s homework invites you to build a timed coding quiz with multiple-choice questions. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean, polished, and responsive user interface. 
-
-This week’s coursework will equip you with all the skills you need to succeed in this assignment.
+![assets/images/testyourjs.png]
 
 ## User Story
 

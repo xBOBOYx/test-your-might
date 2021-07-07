@@ -160,7 +160,7 @@ li {
 
 @keyframes moving {
   0% {
-    left: -800px;
+    left: -100%;
   }
 
   100% {
