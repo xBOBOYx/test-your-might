@@ -36,7 +36,7 @@ var jsQuestions = document.querySelector("#jsQuestions");
 var kombatBox = document.querySelector("#kombatBox");
 
 // Seconds on the clock
-var secondsLeft = 60;
+var secondsLeft = 45;
 var holdInterval = 0;
 var penalty = 10;
 
@@ -52,7 +52,7 @@ timer.addEventListener("click", function () {
             if (secondsLeft <= 0) {
                 clearInterval(holdInterval);
                 Kompleted();
-                clock.textContent = "MORTAL KOMBAT!";
+                clock.textContent = "YOU ARE BANISHED TO THE NETHERREALM!";
             }
         }, 1000);
     }
@@ -127,7 +127,7 @@ function Kompleted() {
     jsQuestions.appendChild(createP);
 
     // Calculates time left and replaces with score
-    if (secondsLeft >= 0) {
+    if (secondsLeft >= -100) {
         var timeRemaining = secondsLeft;
         var createP2 = document.createElement("p");
         clearInterval(holdInterval);
@@ -137,10 +137,9 @@ function Kompleted() {
     }else{
 
     createP.textContent ="YOU ARE BANISHED TO THE NETHERREALM!"
-  
-   
-
     }
+
+  
 
     // Create a lable
     var createLabel = document.createElement("label");
