@@ -15,7 +15,7 @@ https://fonts.cdnfonts.com/css/mortal-kombat
 Here is my website link:
 https://xboboyx.github.io/test-your-might/index.html
 
-![assets/images/testyourjs.png]
+![](assets/images/testyourjs.png)
 
 ## User Story
 
