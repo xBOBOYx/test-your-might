@@ -38,7 +38,7 @@ var kombatBox = document.querySelector("#kombatBox");
 // Seconds on the clock
 var secondsLeft = 45;
 var holdInterval = 0;
-var penalty = 10;
+var penalty = 9;
 
 // Create list
 var ulCreate = document.createElement("ul");
@@ -51,8 +51,8 @@ timer.addEventListener("click", function () {
             clock.textContent = "Time: " + secondsLeft;
             if (secondsLeft <= 0) {
                 clearInterval(holdInterval);
-                allDone();
-                clock.textContent = "MORTAL KOMBAT!";
+                Kompleted();
+                clock.textContent = "YOU ARE BANISHED TO THE NETHERREALM!";
             }
         }, 1000);
     }
@@ -100,7 +100,7 @@ function compare(event) {
 
     if (questionIndex >= questions.length) {
         // This will append last page with user stats
-        allDone();
+        Kompleted();
         createDiv.textContent = "End of quiz!" + " " + "You got  " + score + "/" + questions.length + " Correct!";
     } else {
         render(questionIndex);
@@ -109,14 +109,14 @@ function compare(event) {
 
 }
 // This will append the last page
-function allDone() {
+function Kompleted() {
     jsQuestions.innerHTML = "";
     clock.innerHTML = "";
 
     // Create h1
     var createH1 = document.createElement("h1");
     createH1.setAttribute("id", "createH1");
-    createH1.textContent = "All Done!"
+    createH1.textContent = "Quiz Komplete!"
 
     jsQuestions.appendChild(createH1);
 
@@ -134,6 +134,12 @@ function allDone() {
         createP.textContent = "Your final score is: " + timeRemaining;
 
         jsQuestions.appendChild(createP2);
+    }else{
+
+    createP.textContent ="YOU ARE BANISHED TO THE NETHERREALM!"
+  
+   
+
     }
 
     // Create a lable

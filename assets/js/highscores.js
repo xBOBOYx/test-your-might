@@ -7,7 +7,7 @@ clearbtn.addEventListener("click", function () {
     localStorage.clear();
     location.reload();
 });
-// Retreives local storage
+// Retreives local storage data
 var allScores = localStorage.getItem("allScores");
 allScores = JSON.parse(allScores);
 
@@ -20,7 +20,7 @@ if (allScores !== null) {
         highScore.appendChild(createLi);
     }
 }
-// Moves to index page
+// Back to home
 Back.addEventListener("click", function () {
     window.location.replace("./index.html");
 });
