@@ -150,13 +150,13 @@ li {
   animation-iteration-count: infinite;
   animation-timing-function: steps(1);
   zoom: 1.5;
-  transform: scale(1.5);
+  transform: scale(1.1);
   transform-origin: 151px 0;
 }
 
 .box {
   position: relative;
-  top: -100px;
+  top: -15px;
   animation-name: moving;
   animation-duration: 4s;
   animation-iteration-count: infinite;
@@ -165,7 +165,7 @@ li {
 
 @keyframes moving {
   0% {
-    left: -100vw;
+    left: -1500px;
   }
 
   100% {
