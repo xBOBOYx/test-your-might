@@ -277,7 +277,7 @@ li {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-width: 640px;
+    min-width: 500px;
   }
 
   #kombatBox {
@@ -294,3 +294,4 @@ li {
     align-items: center;
   }
 }
+
