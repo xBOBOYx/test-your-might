@@ -10,32 +10,31 @@
 
 
     <title>Test Your Might</title>
-
+    <title>Code Quiz</title>
 </head>
+<div class="box">
+    <div class="sprite"></div>
+</div>
 
 <body>
-    <div id="column">
-        <a href="HighScores.html">View Highscores</a>
-    <div id="timer"></div>
-
-    <div id="kombatBox">
-        <h1>Test Your Might</h1>
-            <p>
-                Put your knowledge to the test in this code related quiz. Keep track of the timer
-                and try to answer all the questions before the timer ends. If you cannot komplete 
-                the quiz before the time runs out, you will be banished to the Netherrealm to participate
-                in MORTAL KOMBAT for all eternity.
-
-                Good luck........
-            </p>
-        <div id="clock"></div>
-     
-            <button id="startClock">Start Quiz</button>
-
-        </div>
-    </div>
-</div>
     
+    <div id="kombatBox">
+        
+        <div id="clock"></div>
+        <div id="jsQuestions">
+            <a href="HighScores.html">View Highscores</a>
+            <h1>Test Your JavaScript!</h1>
+            <p>Put your knowledge to the test in this JavaScript quiz. Keep track of the timer
+                and try to answer all the questions correctly before the timer ends. You will also lose time 
+                for each wrong answer. If you cannot komplete the quiz before the time runs out, you will be 
+                banished to the Netherrealm to participate in MORTAL KOMBAT for all eternity.
+                Good luck........</p>
+            <ul id="choicesUl"></ul>
+            <button id="startClock">Test your JS!</button>
+        </div>
+
+    </div>
+
     <style>
         @import url('http://fonts.cdnfonts.com/css/mortal-kombat');
     </style>
