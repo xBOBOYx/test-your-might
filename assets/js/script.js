@@ -36,9 +36,9 @@ var jsQuestions = document.querySelector("#jsQuestions");
 var kombatBox = document.querySelector("#kombatBox");
 
 // Seconds on the clock
-var secondsLeft = 45;
+var secondsLeft = 60;
 var holdInterval = 0;
-var penalty = 9;
+var penalty = 10;
 
 // Create list
 var ulCreate = document.createElement("ul");
@@ -52,7 +52,7 @@ timer.addEventListener("click", function () {
             if (secondsLeft <= 0) {
                 clearInterval(holdInterval);
                 Kompleted();
-                clock.textContent = "YOU ARE BANISHED TO THE NETHERREALM!";
+                clock.textContent = "MORTAL KOMBAT!";
             }
         }, 1000);
     }
