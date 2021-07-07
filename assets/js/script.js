@@ -183,7 +183,7 @@ function allDone() {
             var newScore = JSON.stringify(allScores);
             localStorage.setItem("allScores", newScore);
             // Travels to high scores page
-            window.location.replace("./highscores.html");
+            window.location.replace("highscores.html");
         }
     });
 
